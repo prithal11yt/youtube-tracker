@@ -1,0 +1,20 @@
+{
+  "name": "youtube-outperformer-tracker",
+  "version": "1.0.0",
+  "description": "AI automation to track outperforming YouTube videos from competitors",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js --test"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.9",
+    "dotenv": "^16.4.1"
+  },
+  "keywords": ["youtube", "automation", "competitor-analysis", "ai"],
+  "author": "The Solo Entrepreneur",
+  "license": "MIT"
+}
